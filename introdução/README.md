@@ -14,7 +14,7 @@ int main() {
 ```
 Agora você já tem tudo que precisa para fazer seu primeiro programa em C. Vamos nessa.
 
-Segundo os deuses da programação temos que começar com um programa milenar que desperta a o sentir que existe dentro de você, o famoso Olá mundo:
+Segundo os deuses da programação temos que começar com um programa milenar que desperta a o senior que existe dentro de você, o famoso Olá mundo:
 ```
 int main(){
     printf("Ola Mundo);
