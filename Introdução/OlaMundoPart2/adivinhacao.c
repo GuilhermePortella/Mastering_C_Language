@@ -23,9 +23,13 @@ int main(){
     if(chute == numerosecreto){
         printf("Voce acertou! \n");
     }else{
-        printf("Voce errou! \n");
+        if (chute > numerosecreto){
+            printf("Seu chute foi maior que o numero secreto! \n");
+        }
+
+        if (chute < numerosecreto){
+            printf("Seu chute foi menor que o numero secreto! \n");
+        }
     }
-    
-    
     printf("Fim de jogo \n");
 }
