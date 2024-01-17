@@ -59,3 +59,18 @@ Nesse momento você já deve saber o que é uma variável, então me responda:
 
 ### O que é o escopo de uma variável ?
 
+Não se preocupe, vou te ajudar.
+
+O escopo de uma variável funciona como o paradoxo da máquina do tempo, não conhece também, meu Deus você deve estar perdido, sério!
+
+O paradoxo da máquina do tempo é o seguinte, a viagem no tempo irá existir apenas após a criação dela, óbvio não é ?
+
+Mas vamos lá, fica mais legal, como eu poderia viajar para o passado anterior a invenção da máquina do tempo ? Não seria possível, então estou preso ao presente e ao futuro, entrando no futuro estou preso em um loop que faz eu retornar ao passado, no momento exato da criação maquina do tempo.
+
+Assim funciona o escopo de uma variável, ela vai existir apenas na linha do tempo que você criar ela, nunca antes e nunca depois. 
+
+### Meu Deus, como assim não depois ?
+
+Pensa assim, se você criar uma variável dentro de um bloco if ele vai existir fora dele ? 
+
+Não, ele está preso naquela linha do tempo.
