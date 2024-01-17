@@ -1,6 +1,6 @@
 # O Início de tudo
 
-Vemos que para iniciar um programa em C precisamos do 
+Vemos que para iniciar um programa em C precisamos do:
 
 ```
 #include <stdio.h>
