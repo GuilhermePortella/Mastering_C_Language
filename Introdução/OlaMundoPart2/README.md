@@ -23,5 +23,39 @@ Vamos nos contentar apenas com o if nesse momento. Esse código faz uma compara�
 
 ### A mas se eu não acertar o número, o que vai acontecer ?
 
+Desista, estamos programando em C, aqui não tem espaço para perder.
 
+Brincadeira. Não se ofenda.
+
+Agora entra o segundo bloco preferido dos programadores javascript, o bloco else.
+
+Neste bloco ele funciona como uma ajuda ao bloco if, no exemplo acima se você acertar ele entra no bloco if e executa o que você programar, caso o input seja errado ele pode ir para o else, fica assim:
+
+```
+    else {
+        printf("Tente novamente\n");
+    }
+```
+
+Agora você irá exibir uma mensagem para o jogador tentar novamente, porque ele não sabe a resposta para tudo no universo, fazer o que né?
+
+O código completo fica assim: 
+
+```
+    if (numeroInput == númeroDoJogo){
+        printf("Boa, voce acertou ! \n")
+    }
+    else {
+        printf("Errrooouuuuuuu");
+    }
+```
+
+Agora você precisa me responder, em algum lugar existe um erro de programação, diga onde está esse erro.
+
+Não acaba por aí meu jovem programador de html e javascript.
+
+
+Nesse momento você já deve saber o que é uma variável, então me responda:
+
+### O que é o escopo de uma variável ?
 
