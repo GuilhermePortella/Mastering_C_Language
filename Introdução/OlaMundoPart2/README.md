@@ -1,6 +1,6 @@
 # O que vem após seu primeiro Olá mundo? 
 
-Claro que o vídeo do Akita: [Não se assute](https://www.youtube.com/watch?v=YyWMN_0g3BQ&t=358s&ab_channel=FabioAkita)
+Claro que o vídeo do Akita: [Não se assuste](https://www.youtube.com/watch?v=YyWMN_0g3BQ&t=358s&ab_channel=FabioAkita)
 
 Não se esqueça de assistir a primeira parte desse video, deixa de ser fraco aqui não tem espaço para javascript [Hello World Como Você Nunca Viu! | Entendendo C
 ](https://www.youtube.com/watch?v=Gp2m8ZuXoPg&ab_channel=FabioAkita)
