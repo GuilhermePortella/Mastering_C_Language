@@ -74,3 +74,6 @@ Assim funciona o escopo de uma variável, ela vai existir apenas na linha do tem
 Pensa assim, se você criar uma variável dentro de um bloco if ele vai existir fora dele ? 
 
 Não, ele está preso naquela linha do tempo.
+
+
+### Bloco FOR();
