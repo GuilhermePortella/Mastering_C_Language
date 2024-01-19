@@ -77,3 +77,9 @@ Não, ele está preso naquela linha do tempo.
 
 
 ### Bloco FOR();
+
+
+### #define: Uma variavel ? Um codigo magico ? O que é isso ?
+
+
+### continue;
