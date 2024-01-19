@@ -23,19 +23,20 @@ int main(){
 
     //comparacao se chute e igual numero secreto
     int acertou = (chute == numerosecreto);
+    int maior = chute > numerosecreto;
+    int menor = chute < numerosecreto;
 
     if(acertou){
         printf("Voce acertou! \n");
         //para o jogo
         break;
-    }else{
-        int maior = (chute > numerosecreto);
-        if (maior){
-            printf("Seu chute foi maior que o numero secreto! \n");
-        }else {
-            printf("Seu chute foi menor que o numero secreto! \n");
-        }
     }
-}
+    else if (maior){
+        printf("Seu chute foi maior que o numero secreto! \n");
+    } else if(menor){
+        printf("Seu chute foi menor que o numero secreto! \n");
+    }
+    
+    }
     printf("Fim de jogo \n");
 }
