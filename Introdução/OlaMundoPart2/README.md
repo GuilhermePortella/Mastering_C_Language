@@ -83,3 +83,9 @@ Não, ele está preso naquela linha do tempo.
 
 
 ### continue;
+
+
+### Bloco while()
+
+
+### exercicios: 
