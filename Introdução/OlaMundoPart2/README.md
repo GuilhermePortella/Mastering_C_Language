@@ -80,3 +80,6 @@ Não, ele está preso naquela linha do tempo.
 
 
 ### #define: Uma variavel ? Um codigo magico ? O que é isso ?
+
+
+### continue;
