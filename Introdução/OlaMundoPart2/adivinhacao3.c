@@ -22,6 +22,8 @@ int main(){
 
     if(acertou){
         printf("Voce acertou! \n");
+        //para o jogo
+        break;
     }else{
         int maior = (chute > numerosecreto);
         if (maior){
