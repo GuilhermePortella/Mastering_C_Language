@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+// constante, valor que nao muda
+#define NUMERO_TENTATIVAS 5
+
 int main(){
 
     //inicio do programa - cabecalho
@@ -11,8 +14,9 @@ int main(){
     int numerosecreto = 42 ;
     int chute;
 
-    for(int i = 1; i<= 3; i++){
+    for(int i = 1; i<= NUMERO_TENTATIVAS; i++){
     printf("Qual e seu chute? \n");
+    printf("tentativa numero %d de %d\n", i, NUMERO_TENTATIVAS);
     //função (scanf) para ler o input do usuario
     scanf("%d", &chute);
     printf("Seu chute foi %d \n", chute);  
