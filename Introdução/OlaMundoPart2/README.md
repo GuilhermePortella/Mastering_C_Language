@@ -78,6 +78,15 @@ Não, ele está preso naquela linha do tempo.
 
 ### Bloco FOR();
 
+O bloco For():
+
+```
+for (inicialização; condição; incremento) {
+
+}
+```
+É uma estrutura de repetição para você deixar seus ifs mais interessantes e disfarçar que você vem do javascript, ele irá se repetir até a condição proposta por você ser atendida completamente.
+
 
 ### #define: Uma variavel ? Um codigo magico ? O que é isso ?
 
