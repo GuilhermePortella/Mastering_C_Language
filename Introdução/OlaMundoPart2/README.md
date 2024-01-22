@@ -85,10 +85,56 @@ for (inicialização; condição; incremento) {
 
 }
 ```
-É uma estrutura de repetição para você deixar seus ifs mais interessantes e disfarçar que você vem do javascript, ele irá se repetir até a condição proposta por você ser atendida completamente.
 
+É uma estrutura de repetição para você deixar seus ifs mais interessantes e disfarçar que você vem do javascript, ele irá se repetir até a condição proposta por você ser atendida completamente, essa condição é verificada antes de cada execução do bloco, condição verdadeira o bloco é executado, condição falsa bloco vai ser encerrado.
+
+
+Vamos de exemplo do bloco for:
+```
+for (int i = 1; i <= 10; i++) {
+  printf("%d\n", i);
+}
+```
 
 ### #define: Uma variavel ? Um codigo magico ? O que é isso ?
+
+Diferente de uma variável e um código mágico o #define é uma constante, parecido com javascript ? negativo meu caro.
+
+Em C a constante é um valor que não pode ser alterado durante a execução de um programa, e uma diretiva pré-processamento.
+Por exemplo vamos definir uma constante com valor de PI: 
+
+```
+#define PI 3.141
+```
+
+Acostumado a usar bibliotecas no seu javascript, aqui não tem moleza não em.
+
+
+Sendo assim definida sempre que chamar essa constante com "PI" o valor retornado vai ser 3.141.
+
+Agora vamos para um exemplo mais prático:
+
+Aqui vamos ver seu código preferido, o if():
+
+
+```
+if (erro) {
+  printf("Errouuuu.\n");
+}
+```
+
+Com o #define pode se tornar isso:
+
+```
+#define ERRROUUU_JS printf("Errouuuu.\n");
+
+if (erro) {
+  ERRROUUU_JS;
+}
+```
+
+Observe que o código fica mais elegante com essa pequena mudança, então considere o uso disso no seu próximo programa.
+
 
 
 ### continue;
