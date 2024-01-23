@@ -21,6 +21,11 @@ gcc arquivo.c -o arquivo.exe
 
 Vamos explicar o que é isso:
 
+Esse comando é o responsável por compilar seu arquivo em código fonte na extensão C para um arquivo executável de extensão .exe, assim possibilitando a visualização do seu programa.
+
+O comando irá analisar seu código fonte C, vai gerar o novo arquivo, nesse processo ele não irá apresentar nenhuma mensagem, fique tranquilo você não errou, mensagens são apresentadas apenas quando ele encontrar erros em seu código, normalmente esses erros está especificado exatamente o que você esqueceu ou programou errado, pode ser seu melhor amigo ou seu maior pesadelo.
+
+
 - gcc: é o nome do compilador C.
 - arquivo.c: é o nome do seu código, o arquivo que você programou e você quer compilar
 - -o: isso especifica o nome do arquivo que será gerado o executável 
