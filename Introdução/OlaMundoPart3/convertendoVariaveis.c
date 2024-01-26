@@ -1,7 +1,10 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <time.h>
 
 int main(){
+
+    int segundos = time(0);
 
     int n1 = rand();
     int n2 = rand();
@@ -14,6 +17,6 @@ int main(){
     double pi = 3.1415;
     int piConversion = (int)pi;
     //printf("%f  %d\n", piConversion);
-    printf("%d  %d\n", n1,n2);
+    printf("%d  \n", segundos);
 
 }
