@@ -7,7 +7,9 @@ int main(){
     printf("*Bem vindo ao jogo de adivinhação*\n");
     printf("**********************************\n");
 
-    int numerosecreto = 42 ;
+    int numeroJogo = rand(); // gera um numero aleatorio
+
+    int numerosecreto = numeroJogo % 100 ;
     int chute;
     int tentativa = 1;
     double pontos = 1000; 
