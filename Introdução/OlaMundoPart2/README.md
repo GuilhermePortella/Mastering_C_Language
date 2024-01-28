@@ -76,7 +76,7 @@ Pensa assim, se você criar uma variável dentro de um bloco if ele vai existir 
 Não, ele está preso naquela linha do tempo.
 
 
-### Bloco FOR();
+## Bloco FOR();
 
 O bloco For():
 
@@ -96,7 +96,7 @@ for (int i = 1; i <= 10; i++) {
 }
 ```
 
-### #define: Uma variavel ? Um codigo magico ? O que é isso ?
+## #define: Uma variavel ? Um codigo magico ? O que é isso ?
 
 Diferente de uma variável e um código mágico o #define é uma constante, parecido com javascript ? negativo meu caro.
 
@@ -137,10 +137,38 @@ Observe que o código fica mais elegante com essa pequena mudança, então consi
 
 
 
-### continue;
+## continue;
 
 
-### Bloco while()
+## Bloco while()
+
+O Bloco while, também é um bloco de código de repetição, no caso ele sempre será executado quando a condição for verdadeira.
+
+A sintaxe é assim:
+
+```
+while (condição) {
+  // Bloco de código
+}
+```
+
+Onde a (condição) é uma expressão booleana que é avaliada a cada interação do bloco. Caso a condição for verdadeira ele é executado, quando é falsa o bloco e ignorado, vamos de exemplo:
+
+```
+int main() {
+  int i = 1;
+
+  while (i <= 10) {
+    printf("%d\n", i);
+    i++;
+  }
+
+  return 0;
+}
+```
+
+### Agora me responde, o que vai acontecer ai ?
 
 
-### exercicios: 
+
+## exercicios: 

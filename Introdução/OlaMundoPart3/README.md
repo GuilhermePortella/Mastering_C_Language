@@ -22,6 +22,8 @@ flout = 4 bytes = 32 bits ou 2^32
 ## rend()
 
 
+
+
 ## time(0)
 
 Aqui vai uma curiosidade interessante sobre a função time(), essa função retorna o número de segundos que se passaram desde de 01 de janeiro de 1970, seguindo o padrão UTC.
