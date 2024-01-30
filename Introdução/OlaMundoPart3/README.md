@@ -1,8 +1,11 @@
 ## adivinhacao 1 com bug 
 
+Dentro do projeto [Adivinhção 1](Introdução\OlaMundoPart3\adivinhacao.c) existe um ou varios bugs me diga quais são eles ?
 
 ## adivinhacao 2 corrigindo
 
+Aqui fiz a correção, outro desafio, descubra o que foi corrigido e o porque da correção 
+[Estou aqui](Introdução\OlaMundoPart3\adivinhacaoSemBug.c)
 
 ## double e int 
 
