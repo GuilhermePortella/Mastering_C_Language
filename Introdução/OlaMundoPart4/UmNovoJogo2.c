@@ -4,9 +4,17 @@
 
 int main(){
 
-    printf("**********************************\n");
-    printf("*Bem vindo ao jogo de adivinhação*\n");
-    printf("**********************************\n");
+    printf("\n\n");
+    printf("          P  /_\\  P                              \n");
+    printf("         /_\\_|_|_/_\\                            \n");
+    printf("     n_n | ||. .|| | n_n          Bem vindo ao    \n");
+    printf("     |_|_|nnnn nnnn|_|_|      Jogo de Adivinhacao!\n");
+    printf("    |" "  |  |_|  |"  " |                         \n");
+    printf("    |_____| ' _ ' |_____|                         \n");
+    printf("          \\__|_|__/                              \n");
+    printf("\n\n");
+
+    
 
     int segundos = time(0);
     srand(segundos);
@@ -38,18 +46,6 @@ int main(){
             numerodetentativas = 6;
             break;
     }
-
-
-    // if (nivel == 1){
-    //     numerodetentativas = 20;
-    // }
-    // else if (nivel == 2){
-    //     numerodetentativas = 15;
-    // }
-    // else{
-    //     numerodetentativas = 6;
-    // }
-    
 
     for(int i = 1; i <= numerodetentativas; i++){
 
@@ -85,8 +81,26 @@ int main(){
     }
 
     if (acertou){
-        printf("Voce acertou em %d \n", tentativa);
-        printf("Total de pontos: %.2f \n", pontos);
+        printf("             OOOOOOOOOOO               \n");
+        printf("         OOOOOOOOOOOOOOOOOOO           \n");
+        printf("      OOOOOO  OOOOOOOOO  OOOOOO        \n");
+        printf("    OOOOOO      OOOOO      OOOOOO      \n");
+        printf("  OOOOOOOO  #   OOOOO  #   OOOOOOOO    \n");
+        printf(" OOOOOOOOOO    OOOOOOO    OOOOOOOOOO   \n");
+        printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  \n");
+        printf("OOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO  \n");
+        printf("OOOO  OOOOOOOOOOOOOOOOOOOOOOOOO  OOOO  \n");
+        printf(" OOOO  OOOOOOOOOOOOOOOOOOOOOOO  OOOO   \n");
+        printf("  OOOO   OOOOOOOOOOOOOOOOOOOO  OOOO    \n");
+        printf("    OOOOO   OOOOOOOOOOOOOOO   OOOO     \n");
+        printf("      OOOOOO   OOOOOOOOO   OOOOOO      \n");
+        printf("         OOOOOO         OOOOOO         \n");
+        printf("             OOOOOOOOOOOO              \n");
+        printf("\n\n");
+
+        printf("Parabens! Você ganhou!\n");
+        printf("Voce acertou em %d tentativas!\n", numerodetentativas);
+        printf("Total de pontos: %.1f\n", pontos);
 
     }else {
         printf("Voce perdeu");
