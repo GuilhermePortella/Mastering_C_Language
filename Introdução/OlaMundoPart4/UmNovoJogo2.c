@@ -103,7 +103,12 @@ int main(){
         printf("Total de pontos: %.1f\n", pontos);
 
     }else {
-        printf("Voce perdeu");
+        printf("Você perdeu! Tente de novo!\n");
+
+        printf("       \\|/ ____ \\|/    \n");
+        printf("        @~/ ,. \\~@      \n");
+        printf("       /_( \\__/ )_\\    \n");
+        printf("          \\__U_/        \n");
     }
     printf("Fim de jogo \n");
 
