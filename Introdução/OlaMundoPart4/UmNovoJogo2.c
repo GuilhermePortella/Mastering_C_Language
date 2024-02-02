@@ -98,12 +98,12 @@ int main(){
         printf("             OOOOOOOOOOOO              \n");
         printf("\n\n");
 
-        printf("Parabens! Você ganhou!\n");
+        printf("Parabens! Voce ganhou!\n");
         printf("Voce acertou em %d tentativas!\n", numerodetentativas);
         printf("Total de pontos: %.1f\n", pontos);
 
     }else {
-        printf("Você perdeu! Tente de novo!\n");
+        printf("Voce perdeu! Tente de novo!\n");
 
         printf("       \\|/ ____ \\|/    \n");
         printf("        @~/ ,. \\~@      \n");
