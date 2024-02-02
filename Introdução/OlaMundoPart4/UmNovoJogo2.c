@@ -17,6 +17,8 @@ int main(){
     int tentativa = 1;
     double pontos = 1000; 
 
+    int acertou = 0;
+
     int numerodetentativas = 5;
 
     for(int i = 1; i <= numerodetentativas; i++){
@@ -32,11 +34,11 @@ int main(){
             continue;
         }
         
-        int acertou = (chute == numerosecreto);
+        acertou = (chute == numerosecreto);
         int maior = chute > numerosecreto;
 
         if(acertou){
-            printf("Voce acertou! \n");
+            //printf("Voce acertou! \n");
             break;
         }
         else if (maior){
@@ -51,7 +53,14 @@ int main(){
         pontos = pontos - pontosperdidos;
     
     }
+
+    if (acertou){
+        printf("Voce acertou em %d \n", tentativa);
+        printf("Total de pontos: %.2f \n", pontos);
+
+    }else {
+        printf("Voce perdeu");
+    }
     printf("Fim de jogo \n");
-    printf("Voce acertou em %d \n", tentativa);
-    printf("Total de pontos: %.2f \n", pontos);
+
 }
