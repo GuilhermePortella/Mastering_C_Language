@@ -19,7 +19,23 @@ int main(){
 
     int acertou = 0;
 
-    int numerodetentativas = 5;
+    int nivel;
+    printf("qual o nivel de dificuldade? \n");
+    printf("(1) Facil (2) Medio (3) Dificil \n");
+    printf("Escolha: ");
+    scanf("%d", &nivel);
+
+    int numerodetentativas;
+    if (nivel == 1){
+        numerodetentativas = 20;
+    }
+    else if (nivel == 2){
+        numerodetentativas = 15;
+    }
+    else{
+        numerodetentativas = 6;
+    }
+    
 
     for(int i = 1; i <= numerodetentativas; i++){
 
