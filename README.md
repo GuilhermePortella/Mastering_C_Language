@@ -57,6 +57,8 @@ O comando irá analisar seu código fonte C, vai gerar o novo arquivo, nesse pro
 
 <img src="img\waxVImv.png">
 
+[Bibliotecas de funções](https://www.ime.usp.br/~pf/algoritmos/apend/interfaces.html)
+
 
 ### Meu primeiro programa:
  - [Olá mundo em C](Introdução/OlaMundo)
