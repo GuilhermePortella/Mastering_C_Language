@@ -18,15 +18,15 @@ Para compilar arquivos C e C++ no windows você precisa desse conjunto de arquiv
 Programas que são executados e compilados precisam receber informações de algum lugar. Essas informações são passadas, nesse caso, por uma variável de ambiente.
 Nós vamos modificar a variável de ambiente PATH, ela é responsável por guardar informações sobre comandos que o que deve ser feito quando invocados, assim não sendo necessário vc digitar o caminho absoluto da ferramenta e seu local de instalação.
 
- - Procure por ´edit the system environment variables´ no seu computador.
+ - Procure por ```edit the system environment variables``` no seu computador.
     - Dependendo de suas configurações irá aparecer um aviso, não tenha medo, somente avance.
  
- - Na tela que abrir vá até a aba ´advanced´.
- - Nessa aba clique em ´Environment variables...´
- - Na caixa de seleção ´User variables for YoutUser´, procure por ´path´.
+ - Na tela que abrir vá até a aba ```advanced```.
+ - Nessa aba clique em ```Environment variables...```
+ - Na caixa de seleção ´User variables for YoutUser´, procure por ```path```.
  - Quando achar ´path´, clique em ´edit´.
- - Assim que abrir a nova tela com suas variáveis, procure por ´C:\MinGW\bin´, caso já exista não é necessário nenhuma ação.
- - Se não  existir crie uma nova linha e adicione esse conteúdo: ´C:\MinGW\bin´
+ - Assim que abrir a nova tela com suas variáveis, procure por ```C:\MinGW\bin```, caso já exista não é necessário nenhuma ação.
+ - Se não  existir crie uma nova linha e adicione esse conteúdo: ```C:\MinGW\bin```
 
 Pronto, aqui terminamos sua configuração de variáveis de ambiente.
 
@@ -62,3 +62,4 @@ O comando irá analisar seu código fonte C, vai gerar o novo arquivo, nesse pro
 
 ### Meu primeiro programa:
  - [Olá mundo em C](Introdução/OlaMundo)
+ - [Bibliotecas de funções](https://www.ime.usp.br/~pf/algoritmos/apend/interfaces.html)
