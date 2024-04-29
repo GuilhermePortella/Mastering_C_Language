@@ -46,7 +46,7 @@ O comando irá analisar seu código fonte C, vai gerar o novo arquivo, nesse pro
 
 - `gcc`: é o nome do compilador C.
 - `arquivo.c`: é o nome do seu código, o arquivo que você programou e você quer compilar
-- -`o`: isso especifica o nome do arquivo que será gerado o executável 
+- `-o`: isso especifica o nome do arquivo que será gerado o executável 
 - `arquivo.exe`: esse é o nome do arquivo compilado que você poderá executar em seu PC
 
  * Lembre-se, por enquanto todos esses comandos são exclusivamente para o sistema windows, apesar de os demais sistemas operacionais e distribuições linux não terem muitas diferenças pode ocorrer erros.
