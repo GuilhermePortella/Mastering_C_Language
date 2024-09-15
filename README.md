@@ -1,8 +1,8 @@
 # Conceitos da Linguagem C
 
 
-## Vamos começar pela instalação e configuração dos programas que você vai precisar.
-### Compilação e execução de programas em C/C++ 
+### Vamos começar pela instalação e configuração dos programas que você vai precisar.
+#### Compilação e execução de programas em C/C++ 
 
  Para começar iremos fazer o download do MinGW nesse [link](https://sourceforge.net/projects/mingw/)
 
